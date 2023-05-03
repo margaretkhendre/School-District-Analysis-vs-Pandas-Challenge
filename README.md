@@ -93,9 +93,12 @@ Use the following code to bin the per_school_summary.
 
 Use pd.cut on the "Total Students" column of the per_school_summary DataFrame.
 
-Create a DataFrame called size_summary that breaks down school performance based on school size (small, medium, or large).
+Create a DataFrame that breaks down school performance based on school size (small, medium, or large).
+
+<img width="990" alt="Screenshot 2023-05-03 at 4 23 24 PM" src="https://user-images.githubusercontent.com/121995835/236041118-8901a0e0-2813-452c-9fe6-c1e2a17feb8a.png">
 
 ## Scores by School Type
 Use the per_school_summary DataFrame from the previous step to create a new DataFrame called type_summary.
 
 This new DataFrame should show school performance based on the "School Type".
+<img width="738" alt="Screenshot 2023-05-03 at 4 33 03 PM" src="https://user-images.githubusercontent.com/121995835/236043079-0cac6a68-d138-41fb-9781-2978345630b5.png">
