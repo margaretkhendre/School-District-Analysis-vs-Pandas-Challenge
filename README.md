@@ -88,7 +88,7 @@ Include the following metrics in the table:
 ## Scores by School Size
 Create a DataFrame that breaks down school performance based on school size (small, medium, or large).
 
-<img width="838" alt="Screenshot 2023-05-03 at 4 40 48 PM" src="https://user-images.githubusercontent.com/121995835/236044712-881ba8f0-2e2f-4b3a-ad43-33fcb6b17e9d.png">
+<img width="714" alt="Screenshot 2023-05-03 at 4 43 41 PM" src="https://user-images.githubusercontent.com/121995835/236045255-facfcd7a-42de-44b2-820c-917e2281858e.png">
 
 ## Scores by School Type
 Use the per_school_summary DataFrame from the previous step to create a new DataFrame called type_summary.
