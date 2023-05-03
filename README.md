@@ -75,30 +75,24 @@ Use pd.cut to categorize spending based on the bins.
 <img width="472" alt="Screenshot 2023-05-02 at 3 38 41 ![Uploading Screenshot 2023-05-03 at 4.28.02 PM.png…]()
 PM" src="https://user-images.githubusercontent.com/121995835/235770012-facca13b-4c92-417e-87ff-3d1ce9b4bfc9.png">
 
-<img width="990" alt="Screenshot 2023-05-03 at 4 23 24 PM" src="https://user-images.githubusercontent.com/121995835/236041118-8901a0e0-2813-452c-9fe6-c1e2a17feb8a.png">
-
 Include the following metrics in the table:
 
 - Average math score
 - Average reading score
 - % passing math (the percentage of students who passed math)
 - % passing reading (the percentage of students who passed reading)
-- % overall passing (the percentage of students who passed math AND reading)
-<img width="713" alt="Screenshot 2023-05-03 at 4 29 13 PM" src="https://user-images.githubusercontent.com/121995835/236042403-505425b5-3f07-4931-b986-97cb5e3c391f.png">
+- % overall passing 
+
+<img width="708" alt="Screenshot 2023-05-03 at 4 39 06 PM" src="https://user-images.githubusercontent.com/121995835/236044392-5e064c20-2aca-4a75-8899-c3ad1b8e0ca5.png">
 
 ## Scores by School Size
-Use the following code to bin the per_school_summary.
-
-<img width="550" alt="Screenshot 2023-05-02 at 3 45 49 PM" src="https://user-images.githubusercontent.com/121995835/235769889-522f4ca3-f99b-4357-8678-55a00eb4b069.png">
-
-Use pd.cut on the "Total Students" column of the per_school_summary DataFrame.
-
 Create a DataFrame that breaks down school performance based on school size (small, medium, or large).
 
-<img width="990" alt="Screenshot 2023-05-03 at 4 23 24 PM" src="https://user-images.githubusercontent.com/121995835/236041118-8901a0e0-2813-452c-9fe6-c1e2a17feb8a.png">
+<img width="838" alt="Screenshot 2023-05-03 at 4 40 48 PM" src="https://user-images.githubusercontent.com/121995835/236044712-881ba8f0-2e2f-4b3a-ad43-33fcb6b17e9d.png">
 
 ## Scores by School Type
 Use the per_school_summary DataFrame from the previous step to create a new DataFrame called type_summary.
 
 This new DataFrame should show school performance based on the "School Type".
-<img width="738" alt="Screenshot 2023-05-03 at 4 33 03 PM" src="https://user-images.githubusercontent.com/121995835/236043079-0cac6a68-d138-41fb-9781-2978345630b5.png">
+
+<img width="714" alt="Screenshot 2023-05-03 at 4 41 42 PM" src="https://user-images.githubusercontent.com/121995835/236044837-2a55bc34-cde5-4737-b0b6-dfda3a090929.png">
